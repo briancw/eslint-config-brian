@@ -1,0 +1,13 @@
+{
+  "name": "eslint-config-brian",
+  "version": "1.0.0",
+  "description": "Eslint configuration by Brian",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Brian Whicheloe",
+  "license": "ISC",
+  "repository": "git@github.com:briancw/eslint-config-brian.git",
+  "dependencies": {
+    "eslint-plugin-html": "^1.6.0"
+  }
+}
