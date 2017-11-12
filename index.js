@@ -22,7 +22,7 @@ module.exports = {
     },
     globals: {},
     rules: {
-        'indent': [2, 4],
+        'indent': [2, 4, {MemberExpression: 0}],
         'comma-dangle': [2, 'always-multiline'],
         'space-before-function-paren': [2, 'never'],
         'valid-jsdoc': [2, {
