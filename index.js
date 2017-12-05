@@ -24,7 +24,11 @@ module.exports = {
     rules: {
         'indent': [2, 4, {MemberExpression: 0}],
         'comma-dangle': [2, 'always-multiline'],
-        'space-before-function-paren': [2, 'never'],
+        'space-before-function-paren': ['error', {
+            anonymous: 'never',
+            named: 'never',
+            asyncArrow: 'always',
+        }],
         'valid-jsdoc': [2, {
             requireReturn: false,
             prefer: {
