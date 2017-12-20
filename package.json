@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-brian",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Eslint configuration by Brian",
   "main": "index.js",
   "scripts": {},
