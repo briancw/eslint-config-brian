@@ -42,7 +42,7 @@ module.exports = {
         }],
         'camelcase': [2],
         'object-curly-spacing': ['error', 'never'],
-        'arrow-parens': [0],
+        'arrow-parens': ['error', 'always'],
         'padded-blocks': [0],
         // 'no-warning-comments': [0],
         'semi': ['error', 'never'],
@@ -238,7 +238,6 @@ module.exports = {
             },
         }],
         'unicode-bom': ['error', 'never'],
-        // 'arrow-parens': ['error', 'as-needed'],
         'arrow-spacing': ['error', {
             before: true,
             after: true,
