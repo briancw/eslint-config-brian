@@ -1,24 +1,21 @@
-module.exports = {
-    // Node Core Team eslintconfig
-    // https://github.com/nodejs/node/blob/master/.eslintrc.yaml
+// Node Core Team eslintconfig
+// https://github.com/nodejs/node/blob/master/.eslintrc.yaml
 
-    plugins: [
-        'html',
+module.exports = {
+    extends: [
+        'plugin:vue/essential', // Required to support .vue files
     ],
+    plugins: ['html', 'vue'],
     parserOptions: {
-        // sourceType: 'script',
-        ecmaVersion: 8,
+        ecmaVersion: 9,
         sourceType: 'module',
         ecmaFeatures: {
             impliedStrict: true,
-            jsx: true,
-            experimentalObjectRestSpread: true,
         },
     },
     env: {
         node: true,
         browser: true,
-        es6: true,
     },
     globals: {},
     rules: {
