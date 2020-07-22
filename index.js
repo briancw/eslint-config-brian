@@ -2,10 +2,6 @@
 // https://github.com/nodejs/node/blob/master/.eslintrc.yaml
 
 module.exports = {
-    extends: [
-        'plugin:vue/essential', // Required to support .vue files
-    ],
-    plugins: ['html', 'vue'],
     parserOptions: {
         ecmaVersion: 9,
         sourceType: 'module',
@@ -155,7 +151,7 @@ module.exports = {
         'no-restricted-imports': ['error', 'domain', 'freelist', 'smalloc', 'sys', 'colors'],
         'no-restricted-modules': ['error', 'domain', 'freelist', 'smalloc', 'sys', 'colors'],
         'array-bracket-spacing': ['error', 'never'],
-        'brace-style': ['error', '1tbs', {
+        'brace-style': ['error', 'stroustrup', {
             allowSingleLine: false,
         }],
         // 'camelcase': ['error', {
