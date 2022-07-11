@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-brian",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Eslint configuration by Brian",
   "main": "index.js",
   "scripts": {},
@@ -10,6 +10,7 @@
   "dependencies": {
     "eslint-config-xo": "^0.41.0",
     "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsdoc": "^39.3.3",
     "eslint-plugin-unicorn": "^43.0.1"
   }
 }
