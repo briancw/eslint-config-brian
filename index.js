@@ -1,5 +1,13 @@
 module.exports = {
-    extends: ['eslint-config-xo'],
+    extends: [
+        'eslint-config-xo',
+        'plugin:unicorn/recommended',
+        'plugin:import/recommended',
+    ],
+    plugins: [
+        'unicorn',
+        'import',
+    ],
     rules: {
         'indent': ['error', 4, {MemberExpression: 0}],
         'camelcase': ['error'],

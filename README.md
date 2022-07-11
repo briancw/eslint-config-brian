@@ -1,3 +1,8 @@
-[Brian Whicheloe](http://whicheloe.us) An eslint config by Brian
+An eslint config by [Brian](http://whicheloe.us)
 
-Extended from Sindre Sorhus's [XO config](https://github.com/xojs/eslint-config-xo) with some tweaks to personal preference.
+Based mostly on [XO](https://github.com/xojs/eslint-config-xo) with some tweaks to personal preference.
+
+Rules sources:
+- XO https://github.com/xojs/eslint-config-xo
+- Unicorn https://github.com/sindresorhus/eslint-plugin-unicorn
+- Import https://github.com/import-js/eslint-plugin-import
