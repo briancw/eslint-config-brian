@@ -32,8 +32,16 @@ module.exports = {
         }],
         'no-warning-comments': ['off'],
         'capitalized-comments': ['off'],
+        
         // JSDoc
         'jsdoc/check-indentation': 1,
         'jsdoc/check-line-alignment': ['error', 'always'],
+        
+        // Unicorn Rules
+        'unicorn/no-for-loop': ['off'],
+        'unicorn/no-array-for-each': ['off'],
+        'unicorn/filename-case': ['error', {
+            cases: {camelCase: true},
+        }],
     },
 }
