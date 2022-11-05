@@ -43,5 +43,12 @@ module.exports = {
         'unicorn/filename-case': ['error', {
             cases: {camelCase: true},
         }],
+        'padding-line-between-statements': ['off'],
+        // If "dev" is good enough for chrome devtools its good enough for me
+        'unicorn/prevent-abbreviations': ['error', {
+            allowList: {
+                dev: true,
+            },
+        }],
     },
 }
