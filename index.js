@@ -3,12 +3,10 @@ module.exports = {
         'eslint-config-xo',
         'plugin:unicorn/recommended',
         'plugin:import/recommended',
-        'plugin:jsdoc/recommended',
     ],
     plugins: [
         'unicorn',
         'import',
-        'jsdoc',
     ],
     rules: {
         'indent': ['error', 4, {MemberExpression: 0}],
@@ -32,12 +30,9 @@ module.exports = {
         }],
         'no-warning-comments': ['off'],
         'capitalized-comments': ['off'],
+        'func-style': ['error', 'declaration'],
         
-        // JSDoc
-        'jsdoc/check-indentation': 1,
-        'jsdoc/check-line-alignment': ['error', 'always'],
-        
-        // Unicorn Rules
+        // Unicorn Rules Overrides
         'unicorn/no-for-loop': ['off'],
         'unicorn/no-array-for-each': ['off'],
         'unicorn/filename-case': ['error', {
