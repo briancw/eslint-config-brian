@@ -30,7 +30,7 @@ module.exports = {
         }],
         'no-warning-comments': ['off'],
         'capitalized-comments': ['off'],
-        'func-style': ['error', 'declaration'],
+        'func-style': ['error', 'expression'],
         
         // Unicorn Rules Overrides
         'unicorn/no-for-loop': ['off'],
