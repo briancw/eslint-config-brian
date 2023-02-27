@@ -31,6 +31,9 @@ module.exports = {
         'no-warning-comments': ['off'],
         'capitalized-comments': ['off'],
         'func-style': ['error', 'expression'],
+        // Don't autofix prefer-const
+        'prefer-const': 'off',
+        'no-autofix/prefer-const': 'error',
         
         // Unicorn Rules Overrides
         'unicorn/no-for-loop': ['off'],
