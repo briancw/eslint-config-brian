@@ -7,6 +7,7 @@ module.exports = {
     plugins: [
         'unicorn',
         'import',
+        'no-autofix',
     ],
     rules: {
         'indent': ['error', 4, {MemberExpression: 0}],

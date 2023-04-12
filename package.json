@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-brian",
-  "version": "1.0.17",
+  "version": "1.0.19",
   "description": "Eslint configuration by Brian",
   "main": "index.js",
   "author": "Brian Whicheloe",
@@ -9,9 +9,7 @@
   "dependencies": {
     "eslint-config-xo": "^0.43.1",
     "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-no-autofix": "^1.2.3",
     "eslint-plugin-unicorn": "^45.0.2"
-  },
-  "devDependencies": {
-    "eslint-plugin-no-autofix": "^1.2.3"
   }
 }
