@@ -49,5 +49,7 @@ module.exports = {
                 dev: true,
             },
         }],
+        // I know when I should and shouldn't use a ternary
+        'unicorn/prefer-ternary': ['off'],
     },
 }
