@@ -32,9 +32,6 @@ module.exports = {
         'no-warning-comments': ['off'],
         'capitalized-comments': ['off'],
         'func-style': ['error', 'expression'],
-        // Don't autofix prefer-const
-        'prefer-const': 'off',
-        'no-autofix/prefer-const': 'error',
         
         // Unicorn Rules Overrides
         'unicorn/no-for-loop': ['off'],
@@ -51,5 +48,9 @@ module.exports = {
         }],
         // I know when I should and shouldn't use a ternary
         'unicorn/prefer-ternary': ['off'],
+
+        // Don't autofix prefer-const
+        'prefer-const': 'off',
+        'no-autofix/prefer-const': 'warn',
     },
 }
