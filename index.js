@@ -11,23 +11,24 @@ module.exports = {
         'no-autofix',
     ],
     rules: {
+        // Personal Rules
         'camelcase': ['error'],
         'func-style': ['error', 'expression'],
-        // 'no-warning-comments': ['off'],
-        // 'capitalized-comments': ['off'],
 
         // XO overrides
         'padding-line-between-statements': ['off'],
-        
+        'no-warning-comments': ['off'],
+        'capitalized-comments': ['off'],
+
         // Unicorn Rules Overrides
         'unicorn/no-for-loop': 'off',
         'unicorn/no-array-for-each': 'off',
         'unicorn/filename-case': 'off',
         'unicorn/prevent-abbreviations': 'off',
-        'unicorn/prefer-ternary': 'off', // I know when I should and shouldn't use a ternary
+        'unicorn/prefer-ternary': 'off',
         'unicorn/prefer-switch': 'off',
 
-        // Don't autofix prefer-const
+        // Warn about prefer-const, but don't autofix it
         'prefer-const': 'off',
         'no-autofix/prefer-const': 'warn',
     },
