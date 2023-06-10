@@ -16,9 +16,10 @@ module.exports = {
         'func-style': ['error', 'expression'],
 
         // XO overrides
-        'padding-line-between-statements': ['off'],
-        'no-warning-comments': ['off'],
-        'capitalized-comments': ['off'],
+        'padding-line-between-statements': 'off',
+        'no-warning-comments': 'off',
+        'capitalized-comments': 'off',
+        'no-await-in-loop': 'off',
 
         // Unicorn Rules Overrides
         'unicorn/no-for-loop': 'off',
