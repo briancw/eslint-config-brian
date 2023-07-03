@@ -14,6 +14,7 @@ module.exports = {
         // Personal Rules
         'camelcase': ['error'],
         'func-style': ['error', 'expression'],
+        'no-shadow': ['error', {builtinGlobals: true, hoist: 'all'}],
 
         // XO overrides
         'padding-line-between-statements': 'off',
